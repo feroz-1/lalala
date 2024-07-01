@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.top{
+background: darkgreen;
+color: #fff;
+padding: 10px 0;
+}
+.con{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+}
